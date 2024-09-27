@@ -5,7 +5,8 @@ body {
     flex-direction: column;
     justify-content: space-between; 
     height: 100%;
-    flex: 1 0 auto;   
+    min-height: 100vh;
+    flex: auto;   
   }
 
 .header {
@@ -34,6 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: auto; 
+    margin-bottom: 0;
 }
 
 .superfooter {
